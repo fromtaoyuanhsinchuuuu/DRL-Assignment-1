@@ -8,7 +8,7 @@ import student_agent  # Import your agent
 def train_agent(episodes=5000, render_every=1000):
     """Train the agent and save Q-table to a pickle file"""
     # Initialize environment with a reasonable fuel limit for training
-    env = SimpleTaxiEnv(fuel_limit=1000)
+    env = SimpleTaxiEnv(fuel_limit=5000)
     
     # Training parameters
     epsilon_start = 1.0

@@ -93,7 +93,7 @@ def extract_compact_state(obs):
     else:
         passenger_dir = (0, 0)  # No direction if passenger is picked up or unknown
     
-    # If we know where destination is, get direction to it
+    # If we know where destination is, get direction to it 
     if destination_station and HAVE_PASSENGER:
         destination_dir = get_direction(taxi_pos, destination_station)
     else:

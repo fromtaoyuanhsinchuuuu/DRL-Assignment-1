@@ -4,6 +4,7 @@ import importlib.util
 import time
 from IPython.display import clear_output
 import random
+
 # This environment allows you to verify whether your program runs correctly during testing, 
 # as it follows the same observation format from `env.reset()` and `env.step()`. 
 # However, keep in mind that this is just a simplified environment. 
@@ -31,7 +32,10 @@ class SimpleTaxiEnv():
         # self.stations = [(0, 0), (0, self.grid_size - 1), (self.grid_size - 1, 0), (self.grid_size - 1, self.grid_size - 1)]
         self.passenger_loc = random.choice(self.stations)
        
-        self.obstacles = set()  # No obstacles in simple version
+        num_obstacles = int(self.grid_size * self.grid_size * 0.5)  # 20% of the grid cells as obstacles
+        all_positions = [(x, y) for x in range(self.grid_size) for y in range(self.grid_size)]
+        available_positions = [pos for pos in all_positions if pos not in self.stations]
+        self.obstacles = set(random.sample(available_positions, num_obstacles))
         self.destination = random.choice(self.stations)
         print("--- init --------------------------------")
         print(f'grid_size: {self.grid_size}')
@@ -174,6 +178,13 @@ class SimpleTaxiEnv():
         if 0 <= tx < self.grid_size and 0 <= ty < self.grid_size:
             grid[ty][tx] = '🚖'
 
+        
+        # Obastacles
+        for obstacle in self.obstacles:
+            oy, ox = obstacle
+            if 0 <= ox < self.grid_size and 0 <= oy < self.grid_size:
+                grid[oy][ox] = 'x'
+
         # Print step info
         print(f"----Step {step}----")
         print(f"Taxi Position: ({ty}, {tx})")
@@ -233,6 +244,7 @@ def run_agent(agent_file, env_config, render=False):
 
 if __name__ == "__main__":
     env_config = {
+        "grid_size":10,
         "fuel_limit": 5000
     }
     

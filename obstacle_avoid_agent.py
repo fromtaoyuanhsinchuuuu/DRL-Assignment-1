@@ -1,10 +1,8 @@
 import numpy as np
 import pickle
-import time
 import random
-import matplotlib.pyplot as plt
-from simple_custom_taxi_env import SimpleTaxiEnv
-import student_agent  # Import your agent
+import time
+import os
 
 # Global variables for Q-learning
 Q_TABLE = {}
@@ -130,8 +128,8 @@ def get_action(obs, training=True):
     global PREV_ACTION, EPSILON
     
     # Unpack obstacle information
-    taxi_row, taxi_col, _,_,_,_,_,_,_,_,obstacle_north, obstacle_south, obstacle_east, obstacle_west, passenger_look, destination_look = obs
-
+    _, _, _, _, _, _, _, _, \
+    obstacle_north, obstacle_south, obstacle_east, obstacle_west, _, _ = obs
     
     state_key = state_to_key(obs)
     
@@ -200,8 +198,7 @@ def update_q_table(state, action, reward, next_state, done):
     next_state_key = state_to_key(next_state)
     
     # Unpack obstacle information from current state
-    taxi_row, taxi_col, _,_,_,_,_,_,_,_,obstacle_north, obstacle_south, obstacle_east, obstacle_west, passenger_look, destination_look = state
-
+    _, _, _, _, _, _, _, _, obstacle_north, obstacle_south, obstacle_east, obstacle_west, _, _ = state
     
     # If this is a new state, initialize it in Q-table
     if state_key not in Q_TABLE:
@@ -217,11 +214,7 @@ def update_q_table(state, action, reward, next_state, done):
             
     if next_state_key not in Q_TABLE:
         # Unpack obstacle information from next state
-
-        # taxi_row, taxi_col, _,_,_,_,_,_,_,_,obstacle_north, obstacle_south, obstacle_east, obstacle_west, passenger_look, destination_look = state
-
-        _, _, _, _, _, _, _, _, _, _, next_obstacle_north, next_obstacle_south, next_obstacle_east, next_obstacle_west, \
-        next_passenger_look, next_destination_look = next_state
+        _, _, _, _, _, _, _, _, next_obstacle_north, next_obstacle_south, next_obstacle_east, next_obstacle_west, _, _ = next_state
         
         Q_TABLE[next_state_key] = np.zeros(6)
         # Initialize with bias based on obstacles in the next state
@@ -310,16 +303,37 @@ def train_agent(env, episodes=2000):
 
 if __name__ == "__main__":
     # Import the environment
-    from simple_custom_taxi_env import SimpleTaxiEnv
+    from paste import SimpleTaxiEnv
     
     # Create the environment
-    env = SimpleTaxiEnv(grid_size=10, fuel_limit=5000)
+    env = SimpleTaxiEnv(grid_size=5, fuel_limit=200)
     
     # Train the agent
     print("Starting training...")
     start_time = time.time()
-    train_agent(env, episodes=100000)
+    train_agent(env, episodes=2000)
     end_time = time.time()
     
     print(f"Training completed in {end_time - start_time:.2f} seconds")
     
+    # Test the trained agent
+    state, _ = env.reset()
+    HAVE_PASSENGER = False
+    PREV_ACTION = None
+    done = False
+    total_reward = 0
+    steps = 0
+    
+    print("\nTesting trained agent...")
+    while not done and steps < 100:
+        action = get_action(state, training=False)
+        state, reward, done, _ = env.step(action)
+        total_reward += reward
+        steps += 1
+        
+        # Render the environment (if SimpleTaxiEnv supports it)
+        taxi_row, taxi_col = state[0], state[1]
+        env.render_env((taxi_row, taxi_col), action=action, step=steps, fuel=env.current_fuel)
+        time.sleep(0.5)
+    
+    print(f"Test completed. Total Reward: {total_reward:.2f}, Steps: {steps}")

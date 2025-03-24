@@ -1,0 +1,1618 @@
+Loaded Q-table with 48 states
+Loaded Q-table with 48 states
+--- init --------------------------------
+grid_size: 10
+stations: [(5, 1), (3, 9), (1, 0), (1, 5)]
+passenger_loc: (1, 5)
+destination: (1, 5)
+--------------------------------
+
+Starting training...
+Episode 0/5000, Total Reward: -50.10, Steps: 201
+Saved Q-table with 48 states
+Saved Q-table with 48 states
+Saved Q-table with 48 states
+Episode 100/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 200/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 300/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 400/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 500/5000, Total Reward: -30.10, Steps: 201
+Saved Q-table with 48 states
+Episode 600/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 700/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 800/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 900/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 1000/5000, Total Reward: -30.10, Steps: 201
+Saved Q-table with 48 states
+Episode 1100/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 1200/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 1300/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 1400/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 1500/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 1600/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 1700/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 1800/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 1900/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 2000/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 2100/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 2200/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 2300/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 2400/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 2500/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 2600/5000, Total Reward: -30.10, Steps: 201
+Saved Q-table with 48 states
+Episode 2700/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 2800/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 2900/5000, Total Reward: -25.10, Steps: 201
+Saved Q-table with 48 states
+Episode 3000/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 3100/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 3200/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 3300/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 3400/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 3500/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 3600/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 3700/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 3800/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 3900/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 4000/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 4100/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 4200/5000, Total Reward: -30.10, Steps: 201
+Saved Q-table with 48 states
+Episode 4300/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 4400/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 48 states
+Episode 4500/5000, Total Reward: -30.10, Steps: 201
+Saved Q-table with 48 states
+Episode 4600/5000, Total Reward: -30.10, Steps: 201
+Saved Q-table with 50 states
+Episode 4700/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 50 states
+Episode 4800/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 50 states
+Episode 4900/5000, Total Reward: -20.10, Steps: 201
+Saved Q-table with 50 states
+Saved Q-table with 50 states
+Training completed. Best reward: -20.10
+Training completed in 14.90 seconds
+
+Testing trained agent...
+----Step 1----
+Taxi Position: (1, 1)
+Fuel Left: 4999
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 2----
+Taxi Position: (0, 1)
+Fuel Left: 4998
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 3----
+Taxi Position: (1, 1)
+Fuel Left: 4997
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 4----
+Taxi Position: (0, 1)
+Fuel Left: 4996
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 5----
+Taxi Position: (1, 1)
+Fuel Left: 4995
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 6----
+Taxi Position: (0, 1)
+Fuel Left: 4994
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 7----
+Taxi Position: (1, 1)
+Fuel Left: 4993
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 8----
+Taxi Position: (0, 1)
+Fuel Left: 4992
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 9----
+Taxi Position: (1, 1)
+Fuel Left: 4991
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 10----
+Taxi Position: (0, 1)
+Fuel Left: 4990
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 11----
+Taxi Position: (1, 1)
+Fuel Left: 4989
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 12----
+Taxi Position: (0, 1)
+Fuel Left: 4988
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 13----
+Taxi Position: (1, 1)
+Fuel Left: 4987
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 14----
+Taxi Position: (0, 1)
+Fuel Left: 4986
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 15----
+Taxi Position: (1, 1)
+Fuel Left: 4985
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 16----
+Taxi Position: (0, 1)
+Fuel Left: 4984
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 17----
+Taxi Position: (1, 1)
+Fuel Left: 4983
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 18----
+Taxi Position: (0, 1)
+Fuel Left: 4982
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 19----
+Taxi Position: (1, 1)
+Fuel Left: 4981
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 20----
+Taxi Position: (0, 1)
+Fuel Left: 4980
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 21----
+Taxi Position: (1, 1)
+Fuel Left: 4979
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 22----
+Taxi Position: (0, 1)
+Fuel Left: 4978
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 23----
+Taxi Position: (1, 1)
+Fuel Left: 4977
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 24----
+Taxi Position: (0, 1)
+Fuel Left: 4976
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 25----
+Taxi Position: (1, 1)
+Fuel Left: 4975
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 26----
+Taxi Position: (0, 1)
+Fuel Left: 4974
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 27----
+Taxi Position: (1, 1)
+Fuel Left: 4973
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 28----
+Taxi Position: (0, 1)
+Fuel Left: 4972
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 29----
+Taxi Position: (1, 1)
+Fuel Left: 4971
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 30----
+Taxi Position: (0, 1)
+Fuel Left: 4970
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 31----
+Taxi Position: (1, 1)
+Fuel Left: 4969
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 32----
+Taxi Position: (0, 1)
+Fuel Left: 4968
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 33----
+Taxi Position: (1, 1)
+Fuel Left: 4967
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 34----
+Taxi Position: (0, 1)
+Fuel Left: 4966
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 35----
+Taxi Position: (1, 1)
+Fuel Left: 4965
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 36----
+Taxi Position: (0, 1)
+Fuel Left: 4964
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 37----
+Taxi Position: (1, 1)
+Fuel Left: 4963
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 38----
+Taxi Position: (0, 1)
+Fuel Left: 4962
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 39----
+Taxi Position: (1, 1)
+Fuel Left: 4961
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 40----
+Taxi Position: (0, 1)
+Fuel Left: 4960
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 41----
+Taxi Position: (1, 1)
+Fuel Left: 4959
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 42----
+Taxi Position: (0, 1)
+Fuel Left: 4958
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 43----
+Taxi Position: (1, 1)
+Fuel Left: 4957
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 44----
+Taxi Position: (0, 1)
+Fuel Left: 4956
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 45----
+Taxi Position: (1, 1)
+Fuel Left: 4955
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 46----
+Taxi Position: (0, 1)
+Fuel Left: 4954
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 47----
+Taxi Position: (1, 1)
+Fuel Left: 4953
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 48----
+Taxi Position: (0, 1)
+Fuel Left: 4952
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 49----
+Taxi Position: (1, 1)
+Fuel Left: 4951
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 50----
+Taxi Position: (0, 1)
+Fuel Left: 4950
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 51----
+Taxi Position: (1, 1)
+Fuel Left: 4949
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 52----
+Taxi Position: (0, 1)
+Fuel Left: 4948
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 53----
+Taxi Position: (1, 1)
+Fuel Left: 4947
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 54----
+Taxi Position: (0, 1)
+Fuel Left: 4946
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 55----
+Taxi Position: (1, 1)
+Fuel Left: 4945
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 56----
+Taxi Position: (0, 1)
+Fuel Left: 4944
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 57----
+Taxi Position: (1, 1)
+Fuel Left: 4943
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 58----
+Taxi Position: (0, 1)
+Fuel Left: 4942
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 59----
+Taxi Position: (1, 1)
+Fuel Left: 4941
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 60----
+Taxi Position: (0, 1)
+Fuel Left: 4940
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 61----
+Taxi Position: (1, 1)
+Fuel Left: 4939
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 62----
+Taxi Position: (0, 1)
+Fuel Left: 4938
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 63----
+Taxi Position: (1, 1)
+Fuel Left: 4937
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 64----
+Taxi Position: (0, 1)
+Fuel Left: 4936
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 65----
+Taxi Position: (1, 1)
+Fuel Left: 4935
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 66----
+Taxi Position: (0, 1)
+Fuel Left: 4934
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 67----
+Taxi Position: (1, 1)
+Fuel Left: 4933
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 68----
+Taxi Position: (0, 1)
+Fuel Left: 4932
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 69----
+Taxi Position: (1, 1)
+Fuel Left: 4931
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 70----
+Taxi Position: (0, 1)
+Fuel Left: 4930
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 71----
+Taxi Position: (1, 1)
+Fuel Left: 4929
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 72----
+Taxi Position: (0, 1)
+Fuel Left: 4928
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 73----
+Taxi Position: (1, 1)
+Fuel Left: 4927
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 74----
+Taxi Position: (0, 1)
+Fuel Left: 4926
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 75----
+Taxi Position: (1, 1)
+Fuel Left: 4925
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 76----
+Taxi Position: (0, 1)
+Fuel Left: 4924
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 77----
+Taxi Position: (1, 1)
+Fuel Left: 4923
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 78----
+Taxi Position: (0, 1)
+Fuel Left: 4922
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 79----
+Taxi Position: (1, 1)
+Fuel Left: 4921
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 80----
+Taxi Position: (0, 1)
+Fuel Left: 4920
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 81----
+Taxi Position: (1, 1)
+Fuel Left: 4919
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 82----
+Taxi Position: (0, 1)
+Fuel Left: 4918
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 83----
+Taxi Position: (1, 1)
+Fuel Left: 4917
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 84----
+Taxi Position: (0, 1)
+Fuel Left: 4916
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 85----
+Taxi Position: (1, 1)
+Fuel Left: 4915
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 86----
+Taxi Position: (0, 1)
+Fuel Left: 4914
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 87----
+Taxi Position: (1, 1)
+Fuel Left: 4913
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 88----
+Taxi Position: (0, 1)
+Fuel Left: 4912
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 89----
+Taxi Position: (1, 1)
+Fuel Left: 4911
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 90----
+Taxi Position: (0, 1)
+Fuel Left: 4910
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 91----
+Taxi Position: (1, 1)
+Fuel Left: 4909
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 92----
+Taxi Position: (0, 1)
+Fuel Left: 4908
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 93----
+Taxi Position: (1, 1)
+Fuel Left: 4907
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 94----
+Taxi Position: (0, 1)
+Fuel Left: 4906
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 95----
+Taxi Position: (1, 1)
+Fuel Left: 4905
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 96----
+Taxi Position: (0, 1)
+Fuel Left: 4904
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 97----
+Taxi Position: (1, 1)
+Fuel Left: 4903
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 98----
+Taxi Position: (0, 1)
+Fuel Left: 4902
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 99----
+Taxi Position: (1, 1)
+Fuel Left: 4901
+Last Action: Move South
+
+x . x x . . . . x .
+P 🚖 . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+----Step 100----
+Taxi Position: (0, 1)
+Fuel Left: 4900
+Last Action: Move North
+
+x 🚖 x x . . . . x .
+P . . . . B . . x .
+. . x . . . . . . .
+. x . x x x . x . D
+. . . x x x . . . .
+. R . . x . . . x .
+. . x . . . x x x .
+. . . . . . . . . .
+. . . . . . . . . .
+. . . . . . . . . .
+Test completed. Total Reward: -10.00, Steps: 100

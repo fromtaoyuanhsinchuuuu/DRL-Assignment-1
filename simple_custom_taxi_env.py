@@ -215,6 +215,7 @@ def run_agent(agent_file, env_config, render=False):
         
         
         action = student_agent.get_action(obs, training=True)
+        print(f'total_reward={total_reward}, action={action}')
 
         obs, reward, done, _ = env.step(action)
         # print('obs=',obs)

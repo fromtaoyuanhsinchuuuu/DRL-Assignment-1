@@ -121,7 +121,7 @@ def train_agent(episodes=5000, render_every=1000):
 
 if __name__ == "__main__":
     # Train the agent
-    q_table = train_agent(episodes=5000)
+    q_table = train_agent(episodes=50000)
     
     # Display a sample of the Q-table
     print("\nQ-table Sample (first 5 states):")

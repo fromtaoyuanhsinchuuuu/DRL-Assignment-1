@@ -18,10 +18,13 @@ PREV_ACTION = None  # Track previous action
 # Try to load pre-trained Q-table if available
 try:
     with open('q_table.pickle', 'rb') as f:
-        Q_TABLE = pickle.load(f)
+        Q_TABLE = pickle.load(f, encoding='latin1', fix_imports=True)
     print(f"Loaded Q-table with {len(Q_TABLE)} states")
 except FileNotFoundError:
     print("No pre-trained Q-table found, starting fresh")
+except Exception as e:
+    print(f"Error loading Q-table: {e}")
+    Q_TABLE = {}
 
 def get_direction(taxi_pos, target_pos):
     """
